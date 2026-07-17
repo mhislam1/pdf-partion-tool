@@ -1,0 +1,14 @@
+[project]
+name = "pdf-partition-tool"
+version = "0.1.0"
+description = "A tool for splitting large PDF files"
+requires-python = ">=3.12"
+
+dependencies = [
+    "pymupdf>=1.26",
+]
+
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
